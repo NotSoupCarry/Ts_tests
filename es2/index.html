@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>es2</title>
+</head>
+
+<body>
+
+    <main>
+        <h1>BENVENUTO IN USLESS APP</h1>
+
+        <h3>scrivi qualcosa e premi il bottone per la magia</h3>
+
+        <input type="text" id="userInput" placeholder="Scrivi qui...">
+        <button id="submitButton">Mostra</button>
+
+        <p id="outputMessage"></p>
+
+        <form id="userForm">
+            <h2>Inserisci i tuoi dati</h2>
+            
+            <label for="username">Nome Utente:</label>
+            <input type="text" id="username" placeholder="nome utente...">
+
+            <label for="description">Descrizione:</label>
+            <textarea id="description" placeholder="descrizione..."></textarea>
+
+            <p><b>Nome Utente:</b> <span id="displayUsername">Nessun nome inserito</span></p>
+            <p><b>Descrizione:</b> <span id="displayDescription">Nessuna descrizione</span></p>
+        </form>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

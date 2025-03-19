@@ -1,0 +1,16 @@
+
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "none",
+        "outFile": "bundle.js",
+        "strict": true,
+        "lib": [
+            "DOM",
+            "ES6"
+        ]
+    },
+    "include": [
+        "app.ts"
+    ]
+}
