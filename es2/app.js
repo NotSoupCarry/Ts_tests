@@ -11,6 +11,7 @@ button.addEventListener("click", () => {
     const userInput = inputField.value.trim();
     if (userInput) {
         outputParagraph.style.color = "black";
+        outputParagraph.style.fontWeight = "normal";
         outputParagraph.textContent = `Hai inserito: ${userInput}`;
     }
     else {
